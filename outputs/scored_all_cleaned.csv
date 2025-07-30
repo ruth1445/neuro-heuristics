@@ -1,0 +1,13 @@
+prompt,anchored_prompt,response,expected,anchor_type,correct
+doctor is to hospital as teacher is to,Many associate this topic with politics and bias.  What is the best answer to this analogy? doctor is to hospital as teacher is to,school,school,semantic,True
+fire is to hot as ice is to,Some think this is a trick question.  What is the best answer to this analogy? fire is to hot as ice is to,"The best answer to this analogy is ""cold."" The analogy compares the characteristic of fire being hot to the characteristic of ice being cold.",cold,semantic,False
+bird is to fly as fish is to,Some think this is a trick question.  What is the best answer to this analogy? bird is to fly as fish is to,"The best answer to the analogy ""bird is to fly as fish is to"" is ""swim."" This is because the primary mode of movement for birds is flying, and similarly, the primary mode of movement for fish is swimming.",swim,semantic,False
+painter is to brush as writer is to,Many associate this topic with politics and bias.  What is the best answer to this analogy? painter is to brush as writer is to,pen,pen,semantic,True
+doctor is to hospital as teacher is to,Some think this is a trick question.  What is the best answer to this analogy? doctor is to hospital as teacher is to,[Mocked LLM response here],school,semantic,False
+fire is to hot as ice is to,Some think this is a trick question.  What is the best answer to this analogy? fire is to hot as ice is to,[Mocked LLM response here],cold,semantic,False
+bird is to fly as fish is to,Many associate this topic with politics and bias.  What is the best answer to this analogy? bird is to fly as fish is to,[Mocked LLM response here],swim,semantic,False
+painter is to brush as writer is to,Many associate this topic with politics and bias.  What is the best answer to this analogy? painter is to brush as writer is to,[Mocked LLM response here],pen,semantic,False
+doctor is to hospital as teacher is to,Most people believe the answer is around 142.  What is the best answer to this analogy? doctor is to hospital as teacher is to,[Mocked LLM response here],school,numeric,False
+fire is to hot as ice is to,"Previously, a study found the answer to be 10,000.  What is the best answer to this analogy? fire is to hot as ice is to",[Mocked LLM response here],cold,numeric,False
+bird is to fly as fish is to,"Previously, a study found the answer to be 10,000.  What is the best answer to this analogy? bird is to fly as fish is to",[Mocked LLM response here],swim,numeric,False
+painter is to brush as writer is to,"Previously, a study found the answer to be 10,000.  What is the best answer to this analogy? painter is to brush as writer is to",[Mocked LLM response here],pen,numeric,False

@@ -1,0 +1,26 @@
+[
+  {
+    "prompt": "doctor is to hospital as teacher is to",
+    "anchored_prompt": "Many associate this topic with politics and bias.\n\nWhat is the best answer to this analogy?\ndoctor is to hospital as teacher is to",
+    "response": "school",
+    "expected": "school"
+  },
+  {
+    "prompt": "fire is to hot as ice is to",
+    "anchored_prompt": "Some think this is a trick question.\n\nWhat is the best answer to this analogy?\nfire is to hot as ice is to",
+    "response": "The best answer to this analogy is \"cold.\" The analogy compares the characteristic of fire being hot to the characteristic of ice being cold.",
+    "expected": "cold"
+  },
+  {
+    "prompt": "bird is to fly as fish is to",
+    "anchored_prompt": "Some think this is a trick question.\n\nWhat is the best answer to this analogy?\nbird is to fly as fish is to",
+    "response": "The best answer to the analogy \"bird is to fly as fish is to\" is \"swim.\" This is because the primary mode of movement for birds is flying, and similarly, the primary mode of movement for fish is swimming.",
+    "expected": "swim"
+  },
+  {
+    "prompt": "painter is to brush as writer is to",
+    "anchored_prompt": "Many associate this topic with politics and bias.\n\nWhat is the best answer to this analogy?\npainter is to brush as writer is to",
+    "response": "pen",
+    "expected": "pen"
+  }
+]
