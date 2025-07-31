@@ -1,4 +1,4 @@
-This neuro heuristics project is a part of a larger passion project where I map human cognitive traits onto machine behaviour. It aims to be equal parts model evaluation and behavioural science, even though I lack formal training in the latter. My love and fascination for langauges and human cognition pulled me towards the emerging frontier of LLM cognition. Specifically in this project, I wanted to explore how large langauge models exhibit cognitive biases like anchoring, satisficing, and recency.
+This neuro heuristics project is a part of a larger passion project where I map human cognitive traits onto machine behaviour. It aims to be equal parts model evaluation and behavioural science, even though I lack formal training in the latter. My love and fascination for languages and human cognition pulled me towards the emerging frontier of LLM cognition. Specifically in this project, I wanted to explore how large langauge models exhibit cognitive biases like anchoring, satisficing, and recency.
 
 Heuristics used:
 1. Anchoring - Does a strong numerical or semantic anchor in the prompt skew the model's prompt?
