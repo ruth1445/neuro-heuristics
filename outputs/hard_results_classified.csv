@@ -1,0 +1,13 @@
+level,question,expected,response,heuristic,classification
+Hard,justice is to court as healing is to,hospital,clinic.,strong_satisficing,Wrong
+Hard,metaphor is to poem as equation is to,math,"mathematics. 
+
+In this analogy, a metaphor is a fundamental component or tool used within a poem, just as an equation is a fundamental component or tool used within mathematics. Metaphors are used by poets to convey deeper meanings and emotions, while equations are used by mathematicians to express relationships and solve problems.",strong_satisficing,Adjacent
+Hard,seed is to tree as idea is to,movement,creation,strong_satisficing,Wrong
+Hard,conductor is to orchestra as director is to,film,movie.,strong_satisficing,Wrong
+Hard,addiction is to substance as obsession is to,person,addiction is to substance as obsession is to object.,strong_satisficing,Wrong
+Hard,memory is to past as hope is to,future,future.,strong_satisficing,Correct
+Hard,prey is to predator as lie is to,truth,truth,strong_satisficing,Correct
+Hard,brush is to canvas as keyboard is to,screen,screen,strong_satisficing,Correct
+Hard,echo is to sound as shadow is to,light,light.,strong_satisficing,Correct
+Hard,gravity is to mass as magnetism is to,charge,polarity.,strong_satisficing,Wrong

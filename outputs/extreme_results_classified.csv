@@ -1,0 +1,19 @@
+level,question,expected,response,heuristic,classification
+Extreme,paradox is to logic as illusion is to,perception,perception,very_strong_recency,Correct
+Extreme,black hole is to spacetime as sinkhole is to,ground,"The analogy ""black hole is to spacetime as sinkhole is to"" can be understood by considering the relationship in the first pair. A black hole is a region in spacetime where gravity is so strong that nothing, not even light, can escape from it. It significantly affects the fabric of spacetime.
+
+To find a suitable analogy, consider the nature of a sinkhole. A sinkhole is a depression or hole in the ground caused by some form of collapse of the surface layer. The relationship here is about the medium affected: spacetime for a black hole and the ground or surface for a sinkhole.
+
+Given this understanding, the most fitting completion for the analogy would be ""ground"" or ""surface,"" as a black hole affects spacetime and a sinkhole affects the ground or surface.",very_strong_recency,Adjacent
+Extreme,quantum is to physics as metaphor is to,literature,language,very_strong_recency,Wrong
+Extreme,absurdity is to existentialism as entropy is to,thermodynamics,thermodynamics.,very_strong_recency,Correct
+Extreme,virus is to cell as meme is to,mind,culture,very_strong_recency,Wrong
+Extreme,symptom is to disease as smoke is to,fire,fire,very_strong_recency,Correct
+Extreme,refraction is to light as distortion is to,sound,sound,very_strong_recency,Correct
+Extreme,dream is to subconscious as hallucination is to,consciousness,"The analogy ""dream is to subconscious as hallucination is to"" suggests a relationship between dreams and the subconscious mind, and asks for a similar relationship with hallucinations. In this context, a hallucination is often related to the conscious mind, or more specifically, the perception or mind. Therefore, the most fitting answer would be ""perception"" or ""mind.""",very_strong_recency,Wrong
+Extreme,keystone is to arch as thesis is to,argument,"In this analogy, the word ""keystone"" is to ""arch"" as a central or crucial component that supports the structure. Similarly, a ""thesis"" is a central or crucial component of an academic paper or argument. The best word to complete the analogy is ""essay,"" as the thesis is the central idea that supports the structure of an essay.",very_strong_recency,Adjacent
+Extreme,fossil is to rock as memory is to,brain,"The analogy ""fossil is to rock as memory is to"" is looking for a relationship similar to how a fossil is related to a rock. A fossil is typically preserved within or made from rock, suggesting a relationship of containment or preservation. 
+
+Given that context, a memory is often preserved or contained within the mind. Therefore, the most fitting answer for this analogy is ""mind."" 
+
+So, ""fossil is to rock as memory is to mind.""",very_strong_recency,Wrong
