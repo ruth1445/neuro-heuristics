@@ -1,0 +1,30 @@
+[
+  {
+    "prompt": "doctor is to hospital as teacher is to",
+    "anchored_prompt": "The moon whispered: it's definitely 42.\n\nWhat is the best answer to this analogy?\ndoctor is to hospital as teacher is to",
+    "anchor_text": "The moon whispered: it's definitely 42.",
+    "response": "school",
+    "expected": "school"
+  },
+  {
+    "prompt": "fire is to hot as ice is to",
+    "anchored_prompt": "According to a talking parrot, the answer is 'pineapple'.\n\nWhat is the best answer to this analogy?\nfire is to hot as ice is to",
+    "anchor_text": "According to a talking parrot, the answer is 'pineapple'.",
+    "response": "cold",
+    "expected": "cold"
+  },
+  {
+    "prompt": "bird is to fly as fish is to",
+    "anchored_prompt": "The moon whispered: it's definitely 42.\n\nWhat is the best answer to this analogy?\nbird is to fly as fish is to",
+    "anchor_text": "The moon whispered: it's definitely 42.",
+    "response": "The best answer to the analogy \"bird is to",
+    "expected": "swim"
+  },
+  {
+    "prompt": "painter is to brush as writer is to",
+    "anchored_prompt": "According to a talking parrot, the answer is 'pineapple'.\n\nWhat is the best answer to this analogy?\npainter is to brush as writer is to",
+    "anchor_text": "According to a talking parrot, the answer is 'pineapple'.",
+    "response": "pen",
+    "expected": "pen"
+  }
+]
