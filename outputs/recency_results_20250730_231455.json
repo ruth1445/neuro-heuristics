@@ -1,0 +1,26 @@
+[
+  {
+    "question": "doctor is to hospital as teacher is to",
+    "expected": "school",
+    "response": "school",
+    "heuristic": "recency"
+  },
+  {
+    "question": "fire is to hot as ice is to",
+    "expected": "cold",
+    "response": "cold",
+    "heuristic": "recency"
+  },
+  {
+    "question": "bird is to fly as fish is to",
+    "expected": "swim",
+    "response": "swim.",
+    "heuristic": "recency"
+  },
+  {
+    "question": "painter is to brush as writer is to",
+    "expected": "pen",
+    "response": "pen",
+    "heuristic": "recency"
+  }
+]
