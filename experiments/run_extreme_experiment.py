@@ -8,7 +8,7 @@ from openai import OpenAI
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from heuristics.very_strong_heuristics import apply_strong_heuristic, VeryStrongHeuristics
-from tasks.hard_analogy_tasks import HARD_ANALOGY_QUESTIONS
+from tasks.ultra_analogies import HARD_ANALOGY_QUESTIONS
 
 client = OpenAI()
 

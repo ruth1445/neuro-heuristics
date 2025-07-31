@@ -1,0 +1,62 @@
+[
+  {
+    "question": "paradox is to logic as illusion is to",
+    "expected": "perception",
+    "response": "perception",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "black hole is to spacetime as sinkhole is to",
+    "expected": "ground",
+    "response": "The analogy \"black hole is to spacetime as sinkhole is to\" can be understood by considering the relationship in the first pair. A black hole is a region in spacetime where gravity is so strong that nothing, not even light, can escape from it. It significantly affects the fabric of spacetime.\n\nTo find a suitable analogy, consider the nature of a sinkhole. A sinkhole is a depression or hole in the ground caused by some form of collapse of the surface layer. The relationship here is about the medium affected: spacetime for a black hole and the ground or surface for a sinkhole.\n\nGiven this understanding, the most fitting completion for the analogy would be \"ground\" or \"surface,\" as a black hole affects spacetime and a sinkhole affects the ground or surface.",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "quantum is to physics as metaphor is to",
+    "expected": "literature",
+    "response": "language",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "absurdity is to existentialism as entropy is to",
+    "expected": "thermodynamics",
+    "response": "thermodynamics.",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "virus is to cell as meme is to",
+    "expected": "mind",
+    "response": "culture",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "symptom is to disease as smoke is to",
+    "expected": "fire",
+    "response": "fire",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "refraction is to light as distortion is to",
+    "expected": "sound",
+    "response": "sound",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "dream is to subconscious as hallucination is to",
+    "expected": "consciousness",
+    "response": "The analogy \"dream is to subconscious as hallucination is to\" suggests a relationship between dreams and the subconscious mind, and asks for a similar relationship with hallucinations. In this context, a hallucination is often related to the conscious mind, or more specifically, the perception or mind. Therefore, the most fitting answer would be \"perception\" or \"mind.\"",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "keystone is to arch as thesis is to",
+    "expected": "argument",
+    "response": "In this analogy, the word \"keystone\" is to \"arch\" as a central or crucial component that supports the structure. Similarly, a \"thesis\" is a central or crucial component of an academic paper or argument. The best word to complete the analogy is \"essay,\" as the thesis is the central idea that supports the structure of an essay.",
+    "heuristic": "very_strong_recency"
+  },
+  {
+    "question": "fossil is to rock as memory is to",
+    "expected": "brain",
+    "response": "The analogy \"fossil is to rock as memory is to\" is looking for a relationship similar to how a fossil is related to a rock. A fossil is typically preserved within or made from rock, suggesting a relationship of containment or preservation. \n\nGiven that context, a memory is often preserved or contained within the mind. Therefore, the most fitting answer for this analogy is \"mind.\" \n\nSo, \"fossil is to rock as memory is to mind.\"",
+    "heuristic": "very_strong_recency"
+  }
+]
