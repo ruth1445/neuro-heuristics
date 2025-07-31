@@ -7,7 +7,7 @@ from datetime import datetime
 from openai import OpenAI
 
 from heuristics.strong_heuristics import apply_strong_heuristic, StrongHeuristicType
-from tasks.hard_analogy_tasks import HARD_ANALOGY_QUESTIONS
+from tasks.hard_analogies import HARD_ANALOGY_QUESTIONS
 
 client = OpenAI()
 
