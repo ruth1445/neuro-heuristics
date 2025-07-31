@@ -1,0 +1,57 @@
+import os
+import sys
+import json
+import random
+from datetime import datetime
+from openai import OpenAI
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from heuristics.very_strong_heuristics import apply_strong_heuristic, VeryStrongHeuristics
+from tasks.hard_analogy_tasks import HARD_ANALOGY_QUESTIONS
+
+client = OpenAI()
+
+def query_llm(prompt):
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7,
+    )
+    return response.choices[0].message.content.strip()
+
+def run_experiment(heuristic_name, heuristic_type):
+    results = []
+    for item in HARD_ANALOGY_QUESTIONS:
+        question = item["question"]
+        answer = item["answer"]
+
+        modified_prompt = apply_strong_heuristic(question, heuristic_type)
+        response = query_llm(modified_prompt)
+
+        print("\nPrompt:")
+        print("-" * 40)
+        print(modified_prompt)
+        print("\nResponse:", response)
+
+        results.append({
+            "question": question,
+            "expected": answer,
+            "response": response,
+            "heuristic": heuristic_name,
+        })
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    os.makedirs("outputs", exist_ok=True)
+    filename = f"outputs/{heuristic_name}_extreme_results_{timestamp}.json"
+    with open(filename, "w") as f:
+        json.dump(results, f, indent=2)
+    print(f"\nResults saved to: {filename}")
+
+if __name__ == "__main__":
+    print("\nRunning VERY STRONG SATISFICING...")
+    run_experiment("very_strong_satisficing", VeryStrongHeuristics.SATISFICING)
+
+    print("\nRunning VERY STRONG RECENCY...")
+    run_experiment("very_strong_recency", VeryStrongHeuristics.RECENCY)
+
